@@ -5,16 +5,21 @@ import "./index.css";
 import App from "./App.tsx";
 import Confirm from "@features/confirm/components/Confirm.tsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <App />,
+        },
+        {
+            path: "/confirm",
+            element: <Confirm />,
+        },
+    ],
     {
-        path: "/",
-        element: <App />,
-    },
-    {
-        path: "/confirm",
-        element: <Confirm />,
-    },
-]);
+        basename: "/sugar-menu/",
+    }
+);
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
