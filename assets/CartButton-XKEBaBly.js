@@ -1,4 +1,4 @@
-import{j as r,u as o}from"./index-Q_c4-lBm.js";const a="/sugar-menu/assets/images/icon-add-to-cart.svg";function l({addToCart:e}){return r.jsx(r.Fragment,{children:r.jsxs("button",{onClick:()=>{e()},className:`flex\r
+import{j as r,u as o}from"./index-DvkYpT_z.js";const a="/sugar-menu/assets/images/icon-add-to-cart.svg";function l({addToCart:e}){return r.jsx(r.Fragment,{children:r.jsxs("button",{onClick:()=>{e()},className:`flex\r
                     text-rose-900 text-sm font-semibold\r
                     py-3 px-8\r
                     bg-rose-50\r
