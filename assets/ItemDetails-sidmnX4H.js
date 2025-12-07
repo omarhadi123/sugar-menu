@@ -1,2 +1,0 @@
-import{j as e}from"./index-epRvf3mL.js";function a({category:s,name:t,price:r}){return e.jsx(e.Fragment,{children:e.jsxs("div",{className:"my-8",children:[e.jsx("p",{className:"text-base text-rose-500",children:s}),e.jsx("h3",{className:`text-lg text-rose-900 font-semibold\r
-                                my-1`,children:t}),e.jsxs("span",{className:"text-xl font-semibold text-red",children:["$",r.toFixed(2)]})]})})}export{a as default};
