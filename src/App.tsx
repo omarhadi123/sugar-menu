@@ -24,7 +24,7 @@ function App() {
 
     return (
         <>
-            <main className="w-full h-full bg-rose-100">
+            <main className="w-full h-full">
                 <Home />
             </main>
         </>
