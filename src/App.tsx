@@ -11,7 +11,7 @@ function App() {
     useEffect(() => {
         const fetchMenu = async () => {
             try {
-                const res = await fetch("/data/menu.json");
+                const res = await fetch("./data/menu.json");
                 const data = await res.json();
                 setMenu(data);
             } catch (error) {
